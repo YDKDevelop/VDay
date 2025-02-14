@@ -4,6 +4,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
+  background-color: pink;
+
 }
 
 .logo {
@@ -41,3 +44,23 @@
 .read-the-docs {
   color: #888;
 }
+
+.center-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+
+}
+
+.button_size
+{
+  margin: 20px;
+
+}
+
+
+
+
