@@ -7,18 +7,21 @@ const ValentinesPopup: React.FC = () => {
   const [showHearts, setShowHearts] = useState(false);
 
   return (
-    <div className="flex flex-col items-center justify-center h-screen bg-pink-100">
+    <div className="flex items-center justify-center h-screen w-screen bg-pink-100">
+
       {/* Click to Begin Button */}
       {!showPopup && (
+        
         <motion.button 
-          onClick={() => setShowPopup(true)}
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.9 }}
-          className="px-6 py-3 bg-red-500 text-white rounded-lg shadow-lg"
+            onClick={() => setShowPopup(true)}
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            className="px-6 py-3 bg-red-500 text-white rounded-lg shadow-lg"
         >
-          Click to Begin ❤️
+        Click to Begin ❤️
         </motion.button>
-      )}
+        
+    )}
 
       {/* Valentine's Popup */}
       {showPopup && (
