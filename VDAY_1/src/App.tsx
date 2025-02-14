@@ -100,7 +100,7 @@ const ValentinesPopup: React.FC = () => {
       {/* 🎨 Image Appears After Clicking "YES!" */}
       {showImage && (
         <motion.img 
-          src="src/assets/pic1.jpg" // Replace with your actual image path
+          src="pic1.jpg" // Replace with your actual image path
           initial={{ opacity: 1, y:[0,-80,0], scale: 0.1 }}  // Start small
           animate={{ scale: 1.3 }}  // Scale up
           transition={{ duration: 20.0 }}  // Smooth animation
