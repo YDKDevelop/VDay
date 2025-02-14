@@ -4,4 +4,6 @@ Using ReactJS + Typescript, Framer Motion for animations, and Vercel for deploym
 
 Considering React Router (for multiple pages)
 
+This is a dummy website so don't take it too seriously. 
+
 
